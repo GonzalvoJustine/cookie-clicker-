@@ -1,0 +1,46 @@
+.App__section_right {
+  .Button {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    background: url(../images/storeTile.jpg);
+    position: relative;
+    -webkit-transition: opacity 0.25s ease-out, margin-bottom 0.1s ease-out; /* Safari et Chrome */
+    -moz-transition: opacity 0.25s ease-out, margin-bottom 0.1s ease-out; /* Firefox */
+    -ms-transition: opacity 0.25s ease-out, margin-bottom 0.1s ease-out; /* Internet Explorer 9 */
+    -o-transition: opacity 0.25s ease-out, margin-bottom 0.1s ease-out; /* Opera */
+    transition: opacity 0.25s ease-out, margin-bottom 0.1s ease-out;
+    &:hover {
+      box-shadow: 0 0 16px #fff inset, 0 0 1px #000;
+    }
+    .text {
+      font-size: 28px;
+      text-shadow: 0 0 4px #000;
+      color: #fff;
+      font-weight: bold;
+    }
+    .Button__content {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      span {
+        display: flex;
+        font-weight: bold;
+        //color: #6f6;
+        text-shadow: 0 0 6px #000, 0 1px 1px #000;
+        img {
+          padding-right: .25rem;
+        }
+      }
+    }
+  }
+}
+
+button:disabled {
+  color: #f66;
+}
+button {
+  color: #6f6;
+}

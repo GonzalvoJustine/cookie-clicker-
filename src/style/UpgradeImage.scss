@@ -1,0 +1,39 @@
+.UpgradeImage {
+  .Grandmas, .Farm, .Mine, .Factory, .Bank, .Temple {
+    width: 100%;
+    height: 128px;
+    position: relative;
+    img {
+      width: auto;
+      height: 70px;
+    }
+    .UpgradeImage__separatorBottom {
+      width: 100%;
+      height: 16px;
+      background: url(../images/panelGradientLeft.png) no-repeat top left,
+      url(../images/panelGradientRight.png) no-repeat top right,
+      url(../images/panelHorizontal.png?v=2) repeat-x;
+      bottom: 0;
+      position: absolute;
+    }
+  }
+  .Grandmas {
+  background-color: red;
+  }
+  .Farm {
+    background-color: blue;
+  }
+  .Mine {
+    background-color: green;
+  }
+  .Factory {
+    background-color: orange;
+  }
+  .Bank {
+    background-color: pink;
+  }
+  .Temple {
+    background-color: black;
+  }
+}
+
